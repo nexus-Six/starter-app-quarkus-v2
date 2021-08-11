@@ -9,7 +9,7 @@ Start the app with ./mvnw compile quarkus:dev
 Trigger your commands by calling the RESTful endpoint curl http://localhost:8080/robotcommand/run
 
 ## Open Che File
-https://che.openshift.io/f?url=https://raw.githubusercontent.com/eclipse/che-devfile-registry/master/devfiles/go/devfile.yaml
+https://<CODEREADY_WORKSPACES_URL>/f?url=https://raw.githubusercontent.com/nexus-Six/starter-app-quarkus-v2/master/devfile.yml
 
 
 

@@ -1,4 +1,4 @@
-package nexussix.quarkus.amqp;
+package org.acme;
 
 
 public class RobotCommand {

@@ -40,13 +40,13 @@ components:
 commands:
   - name: 1. Package the application
     actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/quarkus-quickstarts/getting-started'
+      - workdir: '${CHE_PROJECTS_ROOT}/starter-app-quarkus'
         type: exec
         command: mvn package
         component: maven
   - name: 2. Start Quarkus in devmode (hot deploy + debug)
     actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/quarkus-quickstarts/getting-started'
+      - workdir: '${CHE_PROJECTS_ROOT}/starter-app-quarkus'
         type: exec
         command: 'mvn compile quarkus:dev -Dquarkus.http.host=0.0.0.0 -Dquarkus.live-reload.instrumentation=false'
         component: maven
