@@ -15,7 +15,7 @@ components:
         port: 8080
       - attributes:
           path: /
-        name: quarkus-mainpage
+        name: robot-control-page
         port: 8080
       - attributes:
           public: 'false'

@@ -2,16 +2,14 @@
 
 Set your robot name and AMQ properties in src/main/resources/application.properties
 
-Edit src/main/java/org/acme/RobotCommandResource.java
+Edit src/main/java/org/acme/RobotCommandResource.java and uncomment and modify one or more RobotCommand calls 
 
 Start the app with ./mvnw compile quarkus:dev
 
-Trigger your commands by calling the RESTful endpoint curl http://localhost:8080/robotcommand/run
+Open your browser to http://localhost:8080 to display the main robot control page where you can trigger your RESTful endpoint to execute the coammnds
 
-## Open Che File
+## Opening the project in Codeready Workspaces
 https://<CODEREADY_WORKSPACES_URL>/f?url=https://raw.githubusercontent.com/nexus-Six/starter-app-quarkus-v2/master/devfile.yml
-
-
 
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
