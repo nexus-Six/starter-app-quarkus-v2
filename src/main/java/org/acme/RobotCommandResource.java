@@ -11,7 +11,7 @@ import javax.jms.Session;
 import javax.jms.TextMessage;
 import javax.json.bind.Jsonb;
 import javax.json.bind.JsonbBuilder;
-import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
@@ -37,7 +37,7 @@ public class RobotCommandResource {
 
     // This is RESTful endpoint that will be called to trigger your command. Add
     // your code here.
-    @GET
+    @POST
     @Path("/run")
     @Produces(MediaType.TEXT_PLAIN)
     public String run() {
